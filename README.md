@@ -66,7 +66,7 @@ All These commands based on Windows OS
  1. Installing Virtualenv 
     
     ```
-    pip install virtualenv
+    sudo apt install virtualenv
     ```
     
 2. Creating Virtualenv
@@ -76,12 +76,12 @@ All These commands based on Windows OS
     
 3. Activating Environment:
     ```
-    (environment name)\Scripts\activate  (Windows OS)
+    source (environment name)/bin/activate
     ```
 
 4. Deactivating Environment:
     ```
-    (environment name)\Scripts\deactivate.bat (Windows OS)
+    deactivate
     ```
 
 5. Installing django:
