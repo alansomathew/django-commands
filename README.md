@@ -96,7 +96,7 @@ All These commands based on Windows OS
 
 7. Running Django Project:
     ```
-    python manage.py runserver
+    python3 manage.py runserver
     ```
 
 8. Creating app:
@@ -106,19 +106,19 @@ All These commands based on Windows OS
 
 9. Migrating the Model(Step-1):
     ```
-    python manage.py makemigrations
+    python3 manage.py makemigrations
     ```
 
 10. Migrating the Model(Step-2):
     ```
-    python manage.py migrate
+    python3 manage.py migrate
     ```
 
 11. Translating  ORMS into SQL statements:
     ```
-    python manage.py sqlmigrate (migrationfilename)
+    python3 manage.py sqlmigrate (migrationfilename)
     ```
 12. Activating Python Shell:
     ```
-    python manage.py shell
+    python3 manage.py shell
     ```
